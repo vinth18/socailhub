@@ -1,0 +1,67 @@
+name: onboarding_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_native_splash: ^2.2.12
+  sizer: ^2.0.15
+  path_provider: ^2.0.11
+  permission_handler: ^10.0.0
+  provider: ^6.0.3
+  youtube_explode_dart: ^1.12.0
+  fluttertoast: ^8.1.2
+  flutter_insta: any
+  thebrioflashynavbar: ^0.0.1
+  shared_preferences: any
+  url_launcher : any
+  flutter_file_downloader: any
+  carousel_slider: ^4.2.1
+  twitter_extractor: ^0.0.1
+  facebook_video_download : 0.0.4
+  get: ^4.6.5
+  build_context_provider: ^1.1.0
+  go_router: ^6.2.0
+  beautiful_soup_dart: ^0.3.0
+  video_player: ^2.6.0
+  image_downloader: ^0.31.0
+  lecle_downloads_path_provider: any
+  universal_html: ^2.0.9
+  flutter_svg: any
+  skeletons: ^0.0.3
+  lottie: ^2.3.0
+flutter_native_splash:
+
+  android: true
+  ios : true
+  web : true
+
+  color: "#FFFFFF"
+  image: assets/splash6.png
+  #fullscreen: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Mulish
+      fonts:
+        - asset: assets/fonts/Mulish-Light.ttf
+        - asset: assets/fonts/Mulish-SemiBold.ttf

@@ -1,0 +1,34 @@
+import '../model/drawer_item.dart';
+import 'package:flutter/material.dart';
+import 'package:getwidget/getwidget.dart';
+
+final itemsFirst = [
+  DrawerItem(title: 'Youtube', button: GFIconButton(
+    onPressed: () => {},
+    icon: Icon(Icons.play_arrow_outlined),
+
+  )),
+  DrawerItem(title: 'Instagram', button: GFIconButton(
+    onPressed: () => {},
+    icon: Icon(Icons.facebook),
+  )),
+  DrawerItem(title: 'Twitter', button: GFIconButton(
+    onPressed: () => {},
+    icon: Icon(Icons.flag),
+  )),
+  DrawerItem(title: 'Facebook', button: GFIconButton(
+    onPressed: () => {},
+    icon: Icon(Icons.facebook),
+  )),
+];
+
+final itemsSecond = [
+  DrawerItem(title: 'Deployment', button: GFIconButton(
+    onPressed: () => {},
+    icon: Icon(Icons.facebook),
+  )),
+  DrawerItem(title: 'Resources', button: GFIconButton(
+    onPressed: () => {},
+    icon: Icon(Icons.facebook),
+  )),
+];
